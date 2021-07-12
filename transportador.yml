@@ -1,0 +1,9 @@
+  
+spring:
+ jpa:
+  hibernate:
+   ddl-auto: update
+ datasource:
+  url: jdbc:mysql://localhost/transportador?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+  username: root
+  password: 1234
