@@ -3,6 +3,6 @@ spring:
   hibernate:
    ddl-auto: update
  datasource:
-  url: jdbc:mysql://localhost/fornecedor?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+  url: jdbc:mysql://localhost/fornecedor?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
   username: rootprod
   password: 1234
